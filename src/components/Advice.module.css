@@ -1,0 +1,57 @@
+.advice{
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-40%);
+    padding: 50px;
+    text-align: center;
+}
+.advice .adviceQuote{
+    padding-bottom: 20px;
+}
+.advice .adviceQuote p{
+    font-size: 18px;
+
+}
+.advice button{
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #11FFBD;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.advice button:hover{
+    background-color: #AAFFA9;
+}
+
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    transform: translateX(-5px);
+  }
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid black;
+    border-color: black transparent black transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
